@@ -1,4 +1,5 @@
 package Codigo;
+import modelo.Vertice;
 
 public class Arista {
     private Vertice origen;
