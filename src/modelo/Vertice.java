@@ -1,4 +1,4 @@
-package Codigo;
+package modelo;
 
 public class Vertice {
     private String id;
