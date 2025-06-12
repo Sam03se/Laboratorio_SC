@@ -1,6 +1,6 @@
-import Codigo.Vertice;
+package Codigo;
 
-import javax.swing.*;
+import java.util.ArrayList;
 
 public class Grafo {
     private ArrayList<Vertice> vertices = new ArrayList<>();
