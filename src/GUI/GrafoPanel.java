@@ -29,7 +29,7 @@ public class GrafoPanel extends JPanel {
         var vertices = grafo.getVertices();
         int[][] mat = grafo.getMatriz();
         for (int i = 0; i < vertices.size(); i++) {
-            Vertice v1 = vertices.get(i);
+            modelo.Vertice v1 = vertices.get(i);
             for (int j = i+1; j < vertices.size(); j++) {
                 if (mat[i][j] == 1) {
                     Vertice v2 = vertices.get(j);

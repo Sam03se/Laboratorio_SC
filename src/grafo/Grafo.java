@@ -1,6 +1,5 @@
 package grafo;
-
-import Codigo.Vertice;
+import modelo.Vertice;
 
 import java.util.ArrayList;
 public class Grafo {
